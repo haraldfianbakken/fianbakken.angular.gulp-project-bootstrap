@@ -2,7 +2,7 @@
 A simple and flexible gulp / angular bootstrap to get you quickly up running with a new project.
 No constraints in how you choose to orgnanize your code nor what other deps to include.
 
-Set up with a simple gulp webserver to host your webproject and proxy your backend API calls to another server. Easily modify the gulpfile middlewere to suit your backend needs or customize with e.g. NodeJS .
+Set up with a simple gulp webserver to host your webproject and proxy your backend API calls to another server. Easily modify the gulpfile middleware to suit your backend needs or customize with e.g. NodeJS .
 
 ## The setup
  * Angular
