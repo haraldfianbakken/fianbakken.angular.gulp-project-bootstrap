@@ -30,7 +30,7 @@ Easily modify the gulpfile middleware to suit your backend needs or customize wi
 
 ###. You should consider:
  * Define an app-state (concrete, not abstract) that'll match your main-route (e.g. /). Now it's rendering index.html with the abstract state when starting up.
- ..* Base the state on app or app.auth and give it a template.
+  ..* Base the state on app or app.auth and give it a template.
  * Change the app-ids in the template (translations, templates and web) to your app-name
  * Install some css/sass framework (like bootstrap)
  * Remove the help-texts from index.html
@@ -40,4 +40,4 @@ Easily modify the gulpfile middleware to suit your backend needs or customize wi
  * gulp connect
  * Open your browser on localhost:1984
  * Initially set up to proxy traffic coming to /webresources/ to another server (see gulpfile.js)
- ..* Intended to proxy your API calls to another server
+  ..* Intended to proxy your API calls to another server
