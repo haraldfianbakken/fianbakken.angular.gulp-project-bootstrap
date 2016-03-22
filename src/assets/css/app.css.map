@@ -1,0 +1,1 @@
+{"version":3,"file":"app.css","sources":["app.scss"],"sourcesContent":["// Main entry point for styling\n\nbody {\n  background-color: whitesmoke;\n\n}"],"mappings":"AAEA,IAAI,CAAC;EACH,gBAAgB,EAAE,UAAW,GAE9B","names":[],"sourceRoot":"/source/"}

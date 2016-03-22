@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]>    <html class="ie7" lang="no"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8" lang="no"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9" lang="no"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="no">
+<!--<![endif]-->
+<head runat="server">
+    <!--<base href="/"/>-->
+    <!--[if IE]><script type="text/javascript">
+        // Fix for IE ignoring relative base tags.
+        (function() {
+            var baseTag = document.getElementsByTagName('base')[0];
+            baseTag.href = baseTag.href;
+        })();
+    </script><![endif]-->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta name="ROBOTS" content="index,follow,noodp,noydir">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>
+        Fianbakken clean angular gulp bootstrap
+    </title>
+
+      <!-- build:css(.) css/app.min.css -->
+      <!-- bower:css -->
+      <link rel="stylesheet" href="bower_components/angular-busy/dist/angular-busy.css" />
+      <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.css" />
+      <!-- endbower -->
+      <!-- inject:css -->        
+
+      <link rel="stylesheet" href="src/assets/css/app.css">        
+
+      <!-- endinject -->
+    <!-- endbuild -->
+</head>
+<body ng-app="com.fianbakken.angular.bootstrap.web">
+    
+        <ui-view name="header"></ui-view>
+        <div id="main-content" role="main" class="container-cards-fluid" cg-busy="{promise: loadingPromise, templateUrl: 'src/busyIndicator.html', delay: 0}">
+              <ui-view>
+                  <h1>Angular gulp bootstrap</h1>
+                  <p>
+                      You might want to add some states into stateConfig.
+                      There is also some predefined states for auth / unauth and some abstract states for ya..
+                  </p>
+                  </p>
+                  <h2>You might also consider .. </h2>
+                  <ul>
+                      <li>Change the app-name: from: com.fianbakken.angular.bootstrap.web to something more of your app</li>
+                      <li>Change the module-names: com.fianbakken.angular.bootstrap.web.translations and com.fianbakken.angular.bootstrap.web.templates to something of your app</li>
+                      <li>Installing a css-/sass framework (bootstrap or something else)</li>
+                      <li>Setting up / configuring the unit tests </li>
+                  </ul>
+              </ui-view>
+        </div>
+        <footer id="footer" role="contentinfo" class="footer">
+        </footer>
+
+    <!-- build:js(.) app.min.js -->
+    <!-- bower:js -->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+    <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-translate/angular-translate.js"></script>
+    <script src="bower_components/angular-busy/dist/angular-busy.js"></script>
+    <script src="bower_components/angular-promise-tracker/promise-tracker.js"></script>
+    <script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
+    <script src="bower_components/angular-ui-utils/validate.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/moment/moment.js"></script>
+    <!-- endbower -->        
+    <!-- inject:js -->
+
+
+    <script src="src/app.js"></script>
+
+
+    <script src="src/loadingTracker.js"></script>
+
+
+    <script src="src/requestInterceptor.js"></script>
+
+
+    <script src="src/config/stateConfig.js"></script>
+
+
+    <script src="src/config/texts_nb-no.js"></script>
+
+
+    <!-- endinject -->
+    <!-- endbuild -->
+    <!-- templates:js -->
+    <!-- endinject -->
+
+</body>
+</html>
