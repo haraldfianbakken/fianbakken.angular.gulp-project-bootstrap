@@ -7,14 +7,15 @@ Set up with a simple gulp webserver to host your webproject and proxy your backe
 ## The setup
  * Angular
  * Gulp (bower / node)
- * Karma , Mocha, Chai-mocha
+ * Auto-inject bower dependencies (wiredep)
  * UI-router
- * Sass compilation
- * Minification, obscurification
- * Jshint
+ * Sass compilation (gulp-sass)
+ * Minification, obscurification (usemin, usemin-prepae)
+ * Jshint (enforce some js best practices).
  * Webserver with backend proxies
  * Predfined abstracts states, routing , error handling and more for starter template for your project to customize.
  * Flexible folder-structure (basically put stuff in any way you want within src/
+ * Karma , Mocha, Chai-mocha, chai-promises, spy
 
 
 ## Getting started
