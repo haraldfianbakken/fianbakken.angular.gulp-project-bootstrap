@@ -40,4 +40,4 @@ Easily modify the gulpfile middleware to suit your backend needs or customize wi
  * gulp connect
  * Open your browser on localhost:1984
  * Initially set up to proxy traffic coming to /webresources/ to another server (see gulpfile.js)
-  ..* Intended to proxy your API calls to another server
+   * Intended to proxy your API calls to another server

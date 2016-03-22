@@ -16,8 +16,8 @@ var config = {
     sassDir : 'src/assets/sass',
     cssDir : 'src/assets/css',
     templatesFile : 'template.min.js',
-    sassIncludePaths : ['bower_components/bootstrap-sass-official/assets/stylesheets','src/assets/kreditt']
-
+    // Sample sass-include path for a bower component
+    sassIncludePaths : ['bower_components/bootstrap-sass-official/assets/stylesheets']
 };
 
 gulp.task('jshint', function(){
