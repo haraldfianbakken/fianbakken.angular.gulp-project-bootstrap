@@ -1,5 +1,5 @@
 # Angular and gulp project bootstrap
-A simple and flexible gulp / angular bootstrap to get you quickly up running with a new project. No constraints in how you choose to orgnanize your code nor what other deps to include.
+A flexible gulp and angular bootstrapper project to get you quickly up running with a new project. No constraints in how you choose to orgnanize your code nor what other deps to include.
 Create an easy to use project for live updating the "development" version that are easy to debug; whilst producting a "dist" build with minimized and obscurified code.
 
 Auto-injects third-party dependencies and bundles this within your app when building the dist.
