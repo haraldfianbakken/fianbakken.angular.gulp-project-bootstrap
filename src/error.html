@@ -1,28 +1,6 @@
-﻿<div class="alert alert-danger" ng-switch="errorData.data.developerMessage.indexOf('/rest/resource/regler')>=0 && errorData.data.developerMessage.indexOf('FOR0140001')>=0">
-    <div ng-switch-when="true">
-        <h2>Koblingen mellom Salgsfront og Nice er nede!</h2>
+﻿<div class="alert alert-danger">
+    An error occured
 
-        <p>
-            Klarer ikke hente regler fra NICE. Prøv igjen senere..
-        </p>
-    </div>
-    <div ng-switch-when="false">
-        <h2 class="header">Dette gikk ikke så bra..</h2>
-
-        <p>
-            {{ errorData.message }}
-        </p>
-        <strong ng-if="errorData.code">
-            Feilkode: {{ errorData.code}} | {{ errorData.status }}
-        </strong>
-
-        <p class="alert-warning">
-            {{errorData.developerMessage}}
-        </p>
-        <pre ng-if="!errorData.code && !errorData.message">
-            {{errorData | json }}
-        </pre>
-    </div>
+    {{ errorData }}
 </div>
-
 

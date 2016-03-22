@@ -8,6 +8,8 @@ Set up with a simple gulp webserver to host your webproject and proxy your backe
 
 Easily modify the gulpfile middleware to suit your backend needs or customize with e.g. NodeJS .
 
+Add sample error message to error.html or specifically customize them there (or handle them from the promises)
+
 ## The setup
  * Angular
  * Gulp (bower / node)
