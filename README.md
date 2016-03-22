@@ -26,7 +26,7 @@ Easily modify the gulpfile middleware to suit your backend needs or customize wi
  * npm install
  * bower install
  * gulp
- * gulp conncet (starts webserver on localhost:1984)
+ * gulp connect (starts webserver on localhost:1984)
 
 ###. You should consider:
  * Define an app-state (concrete, not abstract) that'll match your main-route (e.g. /). Now it's rendering index.html with the abstract state when starting up.
