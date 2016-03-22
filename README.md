@@ -1,10 +1,10 @@
-h1. Angular and gulp project bootstrap
+# Angular and gulp project bootstrap
 A simple and flexible gulp / angular bootstrap to get you quickly up running with a new project.
 No constraints in how you choose to orgnanize your code nor what other deps to include.
 
 Set up with a simple gulp webserver to host your webproject and proxy your backend API calls to another server. Easily modify the gulpfile middlewere to suit your backend needs or customize with e.g. NodeJS .
 
-h2. The setup
+## The setup
  * Angular
  * Gulp (bower / node)
  * Karma , Mocha, Chai-mocha
@@ -17,21 +17,21 @@ h2. The setup
  * Flexible folder-structure (basically put stuff in any way you want within src/
 
 
-h2. Getting started
+## Getting started
  * npm install
  * bower install
  * gulp
  * gulp conncet (starts webserver on localhost:1984)
 
-h3. You should consider:
+###. You should consider:
  * Define an app-state (concrete, not abstract) that'll match your main-route (e.g. /). Now it's rendering index.html with the abstract state when starting up.
- ** Base the state on app or app.auth and give it a template.
+ ..** Base the state on app or app.auth and give it a template.
  * Change the app-ids in the template (translations, templates and web) to your app-name
  * Install some css/sass framework (like bootstrap)
  * Remove the help-texts from index.html
 
 
-h3. Use the built-in webserver:
+### Use the built-in webserver:
  * gulp connect
  * Open your browser on localhost:1984
  * Initially set up to proxy traffic coming to /webresources/ to another server (see gulpfile.js)
