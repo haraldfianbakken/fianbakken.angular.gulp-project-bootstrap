@@ -39,7 +39,7 @@
 <body ng-app="com.fianbakken.angular.bootstrap.web">
     
         <ui-view name="header"></ui-view>
-        <div id="main-content" role="main" class="container-cards-fluid" cg-busy="{promise: loadingPromise, templateUrl: 'src/busyIndicator.html', delay: 0}">
+        <div id="main-content" role="main" class="main-app" cg-busy="{promise: loadingPromise, templateUrl: 'src/busyIndicator.html', delay: 0}">
               <ui-view>
                   <h1>Angular gulp bootstrap</h1>
                   <p>
@@ -56,7 +56,7 @@
                   </ul>
               </ui-view>
         </div>
-        <footer id="footer" role="contentinfo" class="footer">
+        <footer id="footer"  class="footer">
         </footer>
 
     <!-- build:js(.) app.min.js -->
