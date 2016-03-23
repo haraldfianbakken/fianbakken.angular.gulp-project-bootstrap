@@ -26,8 +26,7 @@ app.config(function ($urlRouterProvider, $translateProvider, $logProvider) {
   $logProvider.debugEnabled(true);
   $urlRouterProvider.otherwise('/dashboard');
   $translateProvider.preferredLanguage('nb-no').fallbackLanguage('nb-no');
-}).run(function ($rootScope, loadingTracker, $q, productRules) {
-  $rootScope.productRules = productRules;
+}).run(function ($rootScope, loadingTracker, $q) {  
   // Wrap active state of loadingTracker (promiseTracker) in a promise
   // that cg-busy directive will use
   var deferred = $q.defer();
