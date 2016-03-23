@@ -102,10 +102,6 @@ gulp.task('build-dev', ['clean','compile-sass'], function(cb){
     cb();
 });
 
-// Skips jshint and tests (test are run seperate in mvn task)
-gulp.task('build-jenkins', ['clean','copy-resources','compile-sass','build-templates'],function(){
-    runSequence('inject','usemin','inject-templates')
-});
 
 gulp.task('watch', function(){
     gulp.watch(config.scripts, ['build-dev']);
