@@ -78,14 +78,12 @@ gulp.task('clean', function(){
 });
 
 gulp.task('run-tests', function(done){
-    // TODO
-/*    karma.start({
-        configFile:  __dirname+'/test/karma.conf.js',
+    
+  karma.start({
+        configFile:  __dirname+'/test/karma.conf.ci.js',
         singleRun: true
     }, done());
 
-    */
-    done();
 });
 
 gulp.task('copy-resources', function(){
